@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function (props) {
+export default function(props) {
 
   const artistChange = e => {
     props.setArtist(e.target.value);
